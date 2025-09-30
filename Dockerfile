@@ -5,7 +5,7 @@ FROM nginx:alpine
 COPY ./website /usr/share/nginx/html
 
 # Expose port 80 to be able to access the website
-EXPOSE 80
+EXPOSE 90
 
 # Start nginx server
 CMD ["nginx", "-g", "daemon off;"]
